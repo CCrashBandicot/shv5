@@ -1,0 +1,68 @@
+############
+### shv5 ###
+############
+
+                   MMMMMMM                                   MMMMMMMMMMMMMMM   
+                   MMMMMMM                                   MMMMMMMMMMMMMMM   
+                   MMMMMMM                                   MMMMMMMMMMMMMMM   
+                   MMMMMMM                                   MMMMMMMMMMMMMMM   
+                   MMMMMMM                                   MMMMMM            
+           MMMMMM  MMMMMMMMMMMMMMMM     MMMMMMM    MMMMMMM   MMMMMM            
+         MMMMMMMM  MMMMMMMMMMMMMMMMM    MMMMMMM    MMMMMMM   MMMMMMMMMMMM      
+        MMMMMMMMM  MMMMMMMMMMMMMMMMMM   MMMMMMM    MMMMMMM   MMMMMMMMMMMMMM    
+       MMMMMMMMMM  MMMMMMMMMMMMMMMMMM   MMMMMMM    MMMMMMM        MMMMMMMMMM   
+       MMMMMMM     MMMMMMM    MMMMMMM   MMMMMMM    MMMMMMM          MMMMMMMM   
+       MMMMMMM     MMMMMMM    MMMMMMM    MMMMMM    MMMMMM            MMMMMMMM  
+       MMMMMMM     MMMMMMM    MMMMMMM    MMMMMMM  MMMMMMM            MMMMMMMM  
+    MMMMMMMMMM     MMMMMMM    MMMMMMM     MMMMMMMMMMMMMM    MMM     MMMMMMMM   
+  MMMMMMMMMMM      MMMMMMM    MMMMMMM      MMMMMMMMMMMMM    MMMMMMMMMMMMMMMM   
+ MMMMMMMMMMM       MMMMMMM    MMMMMMM       MMMMMMMMMMM     MMMMMMMMMMMMMMM    
+ MMMMMMMMMM        MMMMMMM    MMMMMMM        MMMMMMMMM      MMMMMMMMMMMMM      
+ MMMMMMMM          MMMMMMM    MMMMMMM          MMMMM            MMMMMMM        
+
+
+
+
+DISCLAIMER:
+
+ * The purpose of these coded instructions, statements and computer
+ * programs is for TEST AIMS ONLY !
+ * Their use/misuse is at USERS OWN RISK !
+ * We do not take any responsibility for any harm or damage caused
+ * by the use of this file-package.
+ * This includes copying, duplicating or modifying it in any form !
+
+ * USERS WHO USE THIS CODED INSTRUCTIONS, STATEMENTS AND COMPUTER
+ * PROGRAMS MUST ACCEPT ALL ABOVE STATEMENTS !
+ * OTHERWISE U ARE OBLIGED TO DELETE THESE FILES IMEDIATELY !
+
+
+
+CHANGES [shv5]:
+
+-> - new sshd backdor with env-settings (avoids history logging)
+   - The new sshd is in between 1.2.25-2.0.13 SSHD (from ssh.com)
+   - not so big and with new great features designed to suite shv5.
+-> new rk-dirs coz of lamme anti-shv4 release
+-> new security-checks on the script
+   - latest flaws included (mod_ssl, samba, sendmail etc..)
+-> setup-script rewriten to become more soft (friendly)
+-> added new addons (tripwire, snort ... fucker :))
+-> added basic utilz on rootkit (i hate dld them on each box)
+-> we use md5sum passwords now (more l33t and secure)
+
+
+USAGE:
+
+-> - If u expect me to tell you how/what/if/when/where type of
+   - questions delete these files imediately! This is not for you!
+
+
+TODO:
+
+-> tcpdump trojan
+-> crontab trojan
+-> sendmail backdoor
+-> ftp backdoor
+-> httpd backdoor
+-> any other idea ?!?!?! < mail: pint@dosnet.info >
